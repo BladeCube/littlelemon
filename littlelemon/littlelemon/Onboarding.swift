@@ -9,7 +9,7 @@ import SwiftUI
 let uFirst="first name key"
 let uLast="last name key"
 let uEmail="email key"
-
+let uLoggedIn="uLoggedIn"
 struct Onboarding: View {
     @State var firstName:String=""
     @State var lastName:String=""
@@ -24,11 +24,12 @@ struct Onboarding: View {
                 TextField("first name", text:$firstName)
                 TextField("last name", text:$lastName)
                 TextField("email", text:$email)
-                Text(String(!uFirst.isEmpty && !uLast.isEmpty && !uEmail.isEmpty))
+                //Text(String(!uFirst.isEmpty && !uLast.isEmpty && !uEmail.isEmpty))
                 Button(action: {if (!uFirst.isEmpty && !uLast.isEmpty && !uEmail.isEmpty){
                     UserDefaults.standard.set(firstName, forKey: "uFirst")
                     UserDefaults.standard.set(lastName, forKey: "uLast")
                     UserDefaults.standard.set(email, forKey: "uEmail")
+                    UserDefaults.standard.set(true, forKey: "uLoggedIn")
                     isLoggedIn=true;
                 }
                 }){
@@ -36,12 +37,11 @@ struct Onboarding: View {
                         
                     }
                 
-                
-                Text(firstName)
-                Text(uLast)
-                Text(uEmail)
-                
-            }
+            }.onAppear(perform: {
+                if (UserDefaults.standard.bool(forKey: "uLoggedIn")){
+                    isLoggedIn=true
+                }
+            })
         }
     }
 }

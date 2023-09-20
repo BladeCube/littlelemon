@@ -1,0 +1,12 @@
+{
+  "" : {
+    "dependencies" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-maccatalyst/littlelemonTests.build/Objects-normal/arm64/littlelemonTests-master.d",
+    "diagnostics" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-maccatalyst/littlelemonTests.build/Objects-normal/arm64/littlelemonTests-master.dia",
+    "emit-module-dependencies" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-maccatalyst/littlelemonTests.build/Objects-normal/arm64/littlelemonTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-maccatalyst/littlelemonTests.build/Objects-normal/arm64/littlelemonTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-maccatalyst/littlelemonTests.build/Objects-normal/arm64/littlelemonTests-master.swiftdeps"
+  },
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemonTests/littlelemonTests.swift" : {
+
+  }
+}

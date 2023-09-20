@@ -1,0 +1,65 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "4186b14ae0efbc1a1f21f66cb782e5639bcb8ed7b2354de0dcd7484b97103fee"
+    },
+    {
+      "guid" : "4186b14ae0efbc1a1f21f66cb782e563a18dfb2a599e63476f835fbd67600458"
+    },
+    {
+      "guid" : "4186b14ae0efbc1a1f21f66cb782e563bd0316bf1ac5c455b7dd20523bd00074"
+    }
+  ],
+  "containerPath" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Build/Products",
+      "pchPath" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,15 @@
+{
+  "" : {
+    "dependencies" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-iphoneos/littlelemonUITests.build/Objects-normal/arm64/littlelemonUITests-master.d",
+    "diagnostics" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-iphoneos/littlelemonUITests.build/Objects-normal/arm64/littlelemonUITests-master.dia",
+    "emit-module-dependencies" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-iphoneos/littlelemonUITests.build/Objects-normal/arm64/littlelemonUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-iphoneos/littlelemonUITests.build/Objects-normal/arm64/littlelemonUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-iphoneos/littlelemonUITests.build/Objects-normal/arm64/littlelemonUITests-master.swiftdeps"
+  },
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemonUITests/littlelemonUITests.swift" : {
+
+  },
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemonUITests/littlelemonUITestsLaunchTests.swift" : {
+
+  }
+}

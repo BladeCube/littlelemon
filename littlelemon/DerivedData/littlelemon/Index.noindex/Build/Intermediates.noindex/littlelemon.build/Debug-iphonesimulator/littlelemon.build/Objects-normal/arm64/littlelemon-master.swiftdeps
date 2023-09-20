@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "224e3b6a596d018c05be50a5f22a7fc23667c485bc0ae08f02a08c1957cac696"
+build_start_time: [1695174526, 359095000]
+build_end_time: [1695174526, 364130000]
+inputs:
+  ? "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-iphonesimulator/littlelemon.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : !dirty [1695174524, 253651636]
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon/Home.swift": !dirty [1695174070, 60636152]
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon/Menu.swift": !dirty [1695172461, 302658150]
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon/Onboarding.swift": !dirty [1695174070, 76922514]
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon/UserProfile.swift": !dirty [1695174070, 68336284]
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon/littlelemonApp.swift": !dirty [1695169316, 368913873]
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon/plzhelp.swift": !dirty [1695174067, 104859380]

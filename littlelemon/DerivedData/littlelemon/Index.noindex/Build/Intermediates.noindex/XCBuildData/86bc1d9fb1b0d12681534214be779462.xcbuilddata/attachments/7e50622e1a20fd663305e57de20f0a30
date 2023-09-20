@@ -1,0 +1,30 @@
+{
+  "" : {
+    "dependencies" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-iphoneos/littlelemon.build/Objects-normal/arm64/littlelemon-master.d",
+    "diagnostics" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-iphoneos/littlelemon.build/Objects-normal/arm64/littlelemon-master.dia",
+    "emit-module-dependencies" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-iphoneos/littlelemon.build/Objects-normal/arm64/littlelemon-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-iphoneos/littlelemon.build/Objects-normal/arm64/littlelemon-master-emit-module.dia",
+    "swift-dependencies" : "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-iphoneos/littlelemon.build/Objects-normal/arm64/littlelemon-master.swiftdeps"
+  },
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/DerivedData/littlelemon/Index.noindex/Build/Intermediates.noindex/littlelemon.build/Debug-iphoneos/littlelemon.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon/Home.swift" : {
+
+  },
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon/littlelemonApp.swift" : {
+
+  },
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon/Menu.swift" : {
+
+  },
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon/Onboarding.swift" : {
+
+  },
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon/plzhelp.swift" : {
+
+  },
+  "/Users/markchen/Documents/GitHub/littlelemon/littlelemon/littlelemon/UserProfile.swift" : {
+
+  }
+}

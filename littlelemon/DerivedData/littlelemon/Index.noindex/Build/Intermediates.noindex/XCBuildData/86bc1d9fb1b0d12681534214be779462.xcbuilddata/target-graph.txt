@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Target 'littlelemonUITests' in project 'littlelemon' (no dependencies)
+Target 'littlelemonUITests' in project 'littlelemon'
+➜ Explicit dependency on target 'littlelemon' in project 'littlelemon'
+Target 'littlelemonUITests' in project 'littlelemon'
+➜ Explicit dependency on target 'littlelemon' in project 'littlelemon'
+Target 'littlelemonTests' in project 'littlelemon' (no dependencies)
+Target 'littlelemonTests' in project 'littlelemon'
+➜ Explicit dependency on target 'littlelemon' in project 'littlelemon'
+Target 'littlelemonTests' in project 'littlelemon'
+➜ Explicit dependency on target 'littlelemon' in project 'littlelemon'
+Target 'littlelemon' in project 'littlelemon' (no dependencies)
+Target 'littlelemon' in project 'littlelemon' (no dependencies)
