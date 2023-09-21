@@ -19,7 +19,7 @@ struct Menu: View {
                     Image("Logo")
                     Spacer()
                     
-                    NavigationLink(destination: UserProfile(uFirst: "", uLast: "", uEmail: "", uPhone: "")){
+                    NavigationLink(destination: UserProfile(usFirst: "", usLast: "", usEmail: "", usPhone: "")){
                         Image("profile-image-placeholder")
                             .resizable()
                             .frame(width: 50, height: 50)
@@ -27,7 +27,7 @@ struct Menu: View {
                     
                     
                 }
-                
+                //Text(String(UserDefaults.standard.bool(forKey: "order")))
                 ZStack{
                     let color=Color(red: 73/255, green: 94/255, blue: 87/255)
                     Rectangle().fill(color)
@@ -151,6 +151,7 @@ struct Menu: View {
             .onDisappear(perform: {
                 PersistenceController.shared.clear()
             })
+            .navigationBarBackButtonHidden(true)
         }
     }
 

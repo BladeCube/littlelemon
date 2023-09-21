@@ -10,6 +10,10 @@ let uFirst="first name key"
 let uLast="last name key"
 let uEmail="email key"
 let uPhone="email key"
+let order="order"
+let password="password"
+let offer="offer"
+let news="news"
 let uLoggedIn="uLoggedIn"
 struct Onboarding: View {
     @State var firstName:String=""
@@ -97,7 +101,7 @@ struct Onboarding: View {
                     UserDefaults.standard.set(phone, forKey: "uPhone")
                     UserDefaults.standard.set(false, forKey: "order")
                     UserDefaults.standard.set(false, forKey: "password")
-                    UserDefaults.standard.set(false, forKey: "offer")
+                    UserDefaults.standard.set(true, forKey: "offer")
                     UserDefaults.standard.set(false, forKey: "news")
                     UserDefaults.standard.set(true, forKey: "uLoggedIn")
                     isLoggedIn=true;
@@ -123,6 +127,7 @@ struct Onboarding: View {
                 }
             })
             .padding(.bottom, 30)
+            .navigationBarBackButtonHidden(true)
         }.navigationBarBackButtonHidden(true)
     }
 }

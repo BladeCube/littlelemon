@@ -9,18 +9,14 @@ import SwiftUI
 
 struct UserProfile: View {
     
-    let fName=UserDefaults.standard.string(forKey: "uFirst")
-    let lName=UserDefaults.standard.string(forKey: "uLast")
-    let email=UserDefaults.standard.string(forKey: "uEmail")
-    let phone=UserDefaults.standard.string(forKey: "uPhone")
     @State var orderCheck=UserDefaults.standard.bool(forKey: "order")
     @State var passwordCheck=UserDefaults.standard.bool(forKey: "password")
     @State var offerCheck=UserDefaults.standard.bool(forKey: "offer")
     @State var newsCheck=UserDefaults.standard.bool(forKey: "news")
-    @State var uFirst: String
-    @State var uLast: String
-    @State var uEmail: String
-    @State var uPhone: String
+    @State var usFirst: String=""
+    @State var usLast: String=""
+    @State var usEmail: String=""
+    @State var usPhone: String=""
     
     @Environment(\.presentationMode) var presentation
     var body: some View {
@@ -36,7 +32,7 @@ struct UserProfile: View {
                     
                     Image("Logo").padding(.leading, 50)
                 }
-                
+               // Text(String(UserDefaults.standard.bool(forKey: "order")))
                 Divider()
                 Text("Personal information")
                     .font(.custom("Karla-Regular", fixedSize: 20))
@@ -45,7 +41,7 @@ struct UserProfile: View {
                     .frame(width: 50, height: 50)
                 Text("First Name")
                     .font(.custom("Karla-Regular", fixedSize: 16))
-                TextField("", text: $uFirst)
+                TextField("", text: $usFirst)
                     .font(.custom("Karla-Regular", fixedSize:16))
                     .textFieldStyle(.roundedBorder)
                     .frame(width:350)
@@ -53,7 +49,7 @@ struct UserProfile: View {
                 //Text(fName ?? "")
                 Text("Last Name")
                     .font(.custom("Karla-Regular", fixedSize: 16))
-                TextField("", text: $uLast)
+                TextField("", text: $usLast)
                     .font(.custom("Karla-Regular", fixedSize: 16))
                     .textFieldStyle(.roundedBorder)
                     .frame(width:350)
@@ -61,7 +57,7 @@ struct UserProfile: View {
                 //Text(lName ?? "")
                 Text("Email")
                     .font(.custom("Karla-Regular", fixedSize: 16))
-                TextField("", text: $uEmail)
+                TextField("", text: $usEmail)
                     .font(.custom("Karla-Regular", fixedSize: 16))
                     .textFieldStyle(.roundedBorder)
                     .frame(width:350)
@@ -69,7 +65,7 @@ struct UserProfile: View {
                 //Text(email ?? "")
                 Text("Phone")
                     .font(.custom("Karla-Regular", fixedSize: 16))
-                TextField("", text: $uPhone)
+                TextField("", text: $usPhone)
                     .font(.custom("Karla-Regular", fixedSize: 16))
                     .textFieldStyle(.roundedBorder)
                     .frame(width:350)
@@ -140,10 +136,11 @@ struct UserProfile: View {
                         UserDefaults.standard.set(passwordCheck, forKey: "password")
                         UserDefaults.standard.set(offerCheck, forKey: "offer")
                         UserDefaults.standard.set(newsCheck, forKey: "news")
-                        UserDefaults.standard.set(uFirst, forKey: "uFirst")
-                        UserDefaults.standard.set(uLast, forKey: "uLast")
-                        UserDefaults.standard.set(uEmail, forKey: "uEmail")
-                        UserDefaults.standard.set(uPhone, forKey: "uPhone")
+                        //print(String(UserDefaults.standard.bool(forKey: "news")))
+                        UserDefaults.standard.set(usFirst, forKey: "uFirst")
+                        UserDefaults.standard.set(usLast, forKey: "uLast")
+                        UserDefaults.standard.set(usEmail, forKey: "uEmail")
+                        UserDefaults.standard.set(usPhone, forKey: "uPhone")
                         self.presentation.wrappedValue.dismiss()
                     }){
                         ZStack{
@@ -158,10 +155,14 @@ struct UserProfile: View {
                 }
                 Spacer()
             }.onAppear(perform:{
-                self.uFirst=fName ?? ""
-                self.uLast=lName ?? ""
-                self.uEmail=email ?? ""
-                self.uPhone=phone ?? ""
+                self.usFirst=UserDefaults.standard.string(forKey: "uFirst") ?? ""
+                self.usLast=UserDefaults.standard.string(forKey: "uLast") ?? ""
+                self.usEmail=UserDefaults.standard.string(forKey: "uEmail") ?? ""
+                self.usPhone=UserDefaults.standard.string(forKey: "uPhone") ?? ""
+                self.orderCheck=UserDefaults.standard.bool(forKey: "order")
+                self.passwordCheck=UserDefaults.standard.bool(forKey: "password")
+                self.offerCheck=UserDefaults.standard.bool(forKey: "offer")
+                self.newsCheck=UserDefaults.standard.bool(forKey: "news")
             })
             .padding(.leading,20)
             .navigationBarBackButtonHidden(true)
@@ -172,10 +173,10 @@ struct UserProfile: View {
                 
                     .frame(width: 500, height: 1400)
             )
-        }
+        }.navigationBarBackButtonHidden(true)
     }
 }
 
 #Preview {
-    UserProfile(uFirst: "", uLast: "", uEmail: "", uPhone: "")
+    UserProfile(usFirst: "", usLast: "", usEmail: "", usPhone: "")
 }
