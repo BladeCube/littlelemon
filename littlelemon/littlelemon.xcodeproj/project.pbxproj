@@ -24,6 +24,8 @@
 		0AAF983C2ABA95660094DBE7 /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF983A2ABA95660094DBE7 /* ExampleDatabase.xcdatamodeld */; };
 		0AAF983F2ABAB3460094DBE7 /* Dish+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF983D2ABAB3460094DBE7 /* Dish+CoreDataClass.swift */; };
 		0AAF98402ABAB3460094DBE7 /* Dish+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF983E2ABAB3460094DBE7 /* Dish+CoreDataProperties.swift */; };
+		0AAF98442ABB8F550094DBE7 /* MarkaziText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AAF98432ABB8F550094DBE7 /* MarkaziText-Medium.ttf */; };
+		0AAF98472ABB930B0094DBE7 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AAF98462ABB930B0094DBE7 /* Karla-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,9 @@
 		0AAF983B2ABA95660094DBE7 /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
 		0AAF983D2ABAB3460094DBE7 /* Dish+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataClass.swift"; sourceTree = "<group>"; };
 		0AAF983E2ABAB3460094DBE7 /* Dish+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0AAF98432ABB8F550094DBE7 /* MarkaziText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Medium.ttf"; sourceTree = "<group>"; };
+		0AAF98452ABB900C0094DBE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = littlelemon/Info.plist; sourceTree = "<group>"; };
+		0AAF98462ABB930B0094DBE7 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,7 @@
 		0A94197D2AB956B200F206E5 = {
 			isa = PBXGroup;
 			children = (
+				0AAF98452ABB900C0094DBE7 /* Info.plist */,
 				0AAF983D2ABAB3460094DBE7 /* Dish+CoreDataClass.swift */,
 				0AAF983E2ABAB3460094DBE7 /* Dish+CoreDataProperties.swift */,
 				0A9419BF2ABA859100F206E5 /* Directory */,
@@ -124,6 +130,8 @@
 				0AAF98382ABA8FED0094DBE7 /* MenuItem.swift */,
 				0A9419BB2ABA84C000F206E5 /* UserProfile.swift */,
 				0A9419B72ABA7DC900F206E5 /* Home.swift */,
+				0AAF98432ABB8F550094DBE7 /* MarkaziText-Medium.ttf */,
+				0AAF98462ABB930B0094DBE7 /* Karla-Regular.ttf */,
 				0A9419B92ABA7DE300F206E5 /* Menu.swift */,
 				0AAF983A2ABA95660094DBE7 /* ExampleDatabase.xcdatamodeld */,
 				0A94198D2AB956B300F206E5 /* Assets.xcassets */,
@@ -270,8 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AAF98442ABB8F550094DBE7 /* MarkaziText-Medium.ttf in Resources */,
 				0A9419912AB956B300F206E5 /* Preview Assets.xcassets in Resources */,
 				0A94198E2AB956B300F206E5 /* Assets.xcassets in Resources */,
+				0AAF98472ABB930B0094DBE7 /* Karla-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +484,7 @@
 				DEVELOPMENT_TEAM = F35NXZ6ZTB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = littlelemon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -503,6 +514,7 @@
 				DEVELOPMENT_TEAM = F35NXZ6ZTB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = littlelemon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
