@@ -90,11 +90,15 @@ struct Onboarding: View {
                     .textFieldStyle(.roundedBorder)
                 Divider()
                 //Text(String(!uFirst.isEmpty && !uLast.isEmpty && !uEmail.isEmpty))
-                Button(action: {if (!uFirst.isEmpty && !uLast.isEmpty && !uEmail.isEmpty){
+                Button(action: {if (!uFirst.isEmpty && !uLast.isEmpty && !uEmail.isEmpty && !uPhone.isEmpty){
                     UserDefaults.standard.set(firstName, forKey: "uFirst")
                     UserDefaults.standard.set(lastName, forKey: "uLast")
                     UserDefaults.standard.set(email, forKey: "uEmail")
                     UserDefaults.standard.set(phone, forKey: "uPhone")
+                    UserDefaults.standard.set(false, forKey: "order")
+                    UserDefaults.standard.set(false, forKey: "password")
+                    UserDefaults.standard.set(false, forKey: "offer")
+                    UserDefaults.standard.set(false, forKey: "news")
                     UserDefaults.standard.set(true, forKey: "uLoggedIn")
                     isLoggedIn=true;
                 }
